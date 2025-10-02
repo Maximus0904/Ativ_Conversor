@@ -1,5 +1,5 @@
 print("Conversor de sistemas")
-num = input("Digite o Número Decimal = ")
+num = input("Digite o Número Binário = ")
 def bin_para_dec(num):
     if num == "":
         return 0
