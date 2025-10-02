@@ -1,7 +1,7 @@
 print("Conversor de sistemas")
 num = int(input("Digite o Número Decimal = "))
 resultado = ""
-if num == 0:
+if num == 0 or num == 1:
     resultado = "1"
 else:
     num_D = num
