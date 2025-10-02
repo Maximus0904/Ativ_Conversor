@@ -2,8 +2,8 @@ print("Conversor de sistemas")
 import threading
 
 def num_bin(num,resultado):
-    if num == 0:
-        resultado = "0"
+    if num == 0 or num == 1:
+        resultado = "1"
     else:
         num_D = num
         while num_D > 0:
